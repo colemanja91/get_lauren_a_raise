@@ -4,6 +4,8 @@ Data analysis of the YouTube "PointCrow Clips" channel illustrating
 engagement over time relative to community efforts to get Lauren
 (editor, channel manager) a raise.
 
+Only data publicly-available over the YouTube APIs is used. 
+
 ## Prerequisites
 
 - YouTube API Key
