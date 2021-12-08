@@ -1,1 +1,42 @@
-# get_lauren_a_raise
+# Get Lauren a Raise (PointCrow Clips)
+
+Data analysis of the YouTube "PointCrow Clips" channel illustrating
+engagement over time relative to community efforts to get Lauren
+(editor, channel manager) a raise.
+
+## Prerequisites
+
+- YouTube API Key
+  + This is a good guide: https://www.geeksforgeeks.org/youtube-data-api-set-1/
+  + In this repo, the key is assumed to be the environment variable `YT_API_KEY`
+- Python3 requirements
+  + `pip install -r requirements.txt`
+  + Recommended using `virtualenv`
+
+## Overview
+
+- `data/`
+  + Output data from the scripts being run in this repo
+- `script/`
+  + Python scripts which pull data from the YT API
+
+## Get the channel ID
+
+**TL;DR**
++ The channel ID is `UC6MnY4d56I8j2H327vZzmFg`
+
+```
+python3 ./script/get_channel_id
+```
+
+## Get list of channel videos
+
+- Output stored in `data/videos/list.json`
+
+## Get all video comments
+
+- Raw output stored in `data/comments/raw/{videoId}.json`
+
+## Aggregate all comments to a CSV file
+
+- Output stored in `data/comments/agg/comments.csv`
