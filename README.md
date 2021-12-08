@@ -42,3 +42,30 @@ python3 ./script/get_channel_id
 ## Aggregate all comments to a CSV file
 
 - Output stored in `data/comments/agg/comments.csv`
+
+## Actual analyses
+
+SQL scripts stored in `sql/`. DB is assumed to be PostgreSQL.
+
+### Comment Volume
+
+- total comments
+- Total parent comments
+- Total threads with replies
+- What are the most-liked comments?
+- What is the most-commented video?
+- Which comment thread has the most engagement?
+- Which video is most disliked?
+- Any correlation between duration and performance?
+
+### Raise
+
+- When did the first raise-related comment appear?
+  + Before or after the initial clip?
+- Did anyone retroactively comment about the raise on older clips?
+- Who has commented the most about the raise?
+- Did the raise produce a noticeable increase in comment-based engagement?
+
+### Laid
+
+- Same as raise, but for getting laid
