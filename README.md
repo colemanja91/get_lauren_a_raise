@@ -35,7 +35,7 @@ python3 ./script/get_channel_id
 
 ## Get all video comments
 
-- Raw output stored in `data/comments/raw/{videoId}.json`
+- Raw output stored in `data/comments/raw/comment_threads.json`
 
 ## Aggregate all comments to a CSV file
 
